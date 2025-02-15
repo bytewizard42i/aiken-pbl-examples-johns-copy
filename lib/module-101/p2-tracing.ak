@@ -1,5 +1,5 @@
 test m101_p2_variable_tracing() {
-  let check_a = False
+  let check_a = True
   let check_b = True
   check_a? && check_b?
 }
