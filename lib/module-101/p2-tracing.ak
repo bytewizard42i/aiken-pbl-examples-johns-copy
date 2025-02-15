@@ -13,5 +13,5 @@ test m101_p2_trace_message() {
 test m101_p2_trace_message_1() {
   trace @"This checks if Y is_even"
   let y = 10
-  y % 2 == 1
+  y % 2 == 0
 }
